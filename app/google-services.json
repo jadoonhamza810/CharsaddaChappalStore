@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "530005497537",
+    "project_id": "charsaddachappalstore-64a54",
+    "storage_bucket": "charsaddachappalstore-64a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530005497537:android:59c8762584feeb65a7a640",
+        "android_client_info": {
+          "package_name": "com.example.charsaddachappalstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530005497537-ib48cdi56i3541prct14oksklgchv2gm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charsaddachappalstore",
+            "certificate_hash": "3a9d78f4e01d7bf90233dc9fcba42e5c4e2ecd7d"
+          }
+        },
+        {
+          "client_id": "530005497537-ejg874usdjg4809cfgtob4rcqaphktrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgl_FlO5ir4H5r4xYierK8j3ZjBkOCn78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530005497537-ejg874usdjg4809cfgtob4rcqaphktrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

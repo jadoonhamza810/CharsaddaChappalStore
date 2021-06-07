@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buyer.ConfirmOrderActivity">
+
+    <TextView
+        android:id="@+id/confirm_order_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Shipment Details"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/buyer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_order_slogan"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:hint="Your Name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/buyer_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyer_name"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Phone Number"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/buyer_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyer_phone_number"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Home Address"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/buyer_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyer_address"
+        android:inputType="textCapWords"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="City Name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+
+    <Button
+        android:id="@+id/confirm_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:text="Confirm Order"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</RelativeLayout>

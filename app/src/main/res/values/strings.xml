@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Charsadda Chappal Store</string>
+    <string name="title_activity_seller_home">Seller Page</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_sellers_home">Home</string>
+    <string name="title_activity_add_new_procuctactivity">Add New Procuct</string>
+
+</resources>
