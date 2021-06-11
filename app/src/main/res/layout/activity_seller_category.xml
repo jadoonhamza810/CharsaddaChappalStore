@@ -75,24 +75,24 @@
         android:id="@+id/category_charsadda"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/charsadda_chappal"
-        />
+    android:src="@drawable/charsadda_chappal"/>
+
 
     <ImageView
         android:id="@+id/category_peshawari"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/peshawari_chappal"
-        />
+        android:src="@drawable/peshawari_chappal2"/>
+
 
     <ImageView
         android:id="@+id/category_quetta"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/quetta_chappal"
-        />
+    android:src="@drawable/quetta_chappal"/>
+
 
   </LinearLayout>
 
@@ -154,24 +154,24 @@
         android:id="@+id/category_kaptaan"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/kaptaan_chappal"
-        />
+     android:src="@drawable/kaptaan_chappal"/>
+
 
     <ImageView
         android:id="@+id/category_norozi"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/norozi_chappal"
-        />
+     android:src="@drawable/norozi_chappal"/>
+
 
     <ImageView
         android:id="@+id/category_shikari"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/shikari_chappal"
-        />
+    android:src="@drawable/shikari_chappal"/>
+
   </LinearLayout>
 
   <LinearLayout
@@ -230,16 +230,16 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginRight="40dp"
-        android:src="@drawable/handmade_chappal"
-        />
+         android:src="@drawable/handmade_chappal"/>
+
 
     <ImageView
         android:id="@+id/category_leather"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
-        android:src="@drawable/leather"
-  />
+        android:src="@drawable/leather"/>
+
 
   </LinearLayout>
 
